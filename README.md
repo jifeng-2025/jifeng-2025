@@ -1,222 +1,98 @@
-# 👋 你好，我是黄继峰 | Jifeng Huang
+# 你好，我是黄继峰 · Jifeng Huang
 
-> 🎮 **游戏策划 × AI Agent × 多模态生成**
-> 🎓 深圳大学 · 电子信息硕士 · 2027 届
-> 💼 腾讯 IEG · 光子工作室群 · 游戏策划实习
-> 🤖 关注 AI 在游戏研发、内容生成与数字人方向的应用
+**系统玩法策划方向｜游戏原型开发｜AI 辅助设计与验证**
 
-我目前主要关注 **AI × 游戏 × 数字人** 方向。
+深圳大学电子信息硕士在读，2027 届。目前在腾讯 IEG 光子工作室群从事游戏技术策划实习。我关注玩法规则、操作反馈与工具体验，也使用 Python、TypeScript 及 AI 开发工具，把设计做成可运行的原型，再通过试玩和测试迭代。
 
-具备深度学习、多模态生成与 AI Agent 工程实践经历，同时拥有游戏策划与竞技游戏经验。日常深度使用 **Cursor、Codex、ChatGPT 等 AI Coding / Agent 工具**，能够从需求拆解出发，完成 AI 协作、原型实现、运行调试、试玩验收与迭代优化。
+我有长期 MOBA 竞技经历，曾是青训选手，担任深圳大学英雄联盟校队队长，获得 IEF 2024 中国赛区冠军及 TCL 全球高校电子竞技联赛 S3、S4 中国赛区总冠军。竞技之外，我喜欢把“为什么好玩、哪里不好用”的感受，拆成具体规则、交互方案和可验证的问题。
 
----
-
-## 💼 实习经历
-
-### 🎮 腾讯 IEG｜光子工作室群｜游戏策划
-
-**2026.08 — 至今**
-
-* 参与游戏项目的**需求分析、方案拆解与原型验证**，将策划需求拆分为玩法逻辑、视觉表现、场景、美术资产、音频和程序实现等模块。
-* 参与基于 **AI Agent 的多角色协同开发工作流**，通过游戏策划、TA、场景美术、3D 美术、音效和程序等 AI 角色协作完成需求验证。
-* 使用 **Cursor、Codex 等 AI Coding / Agent 工具**完成代码仓库理解、任务拆解、代码生成与修改、资源接入、运行调试、Bug 定位和功能验收。
-* 建立并实践：
-
-`需求拆解 → AI 分工 → 功能实现 → 本地运行 → 试玩验收 → 反馈迭代`
+**联系我：** [1170626061@qq.com](mailto:1170626061@qq.com)  
+**我的工作方式：** 明确体验目标 → 拆解规则与交互 → AI 辅助实现 → 试玩与测试 → 根据反馈调整。
 
 ---
 
-# 🚀 精选项目
+## 作品集
 
-## 🎮 Evacuation Command｜撤离射击游戏原型
+这里展示三个可公开查看的个人项目。围棋助手侧重训练交互与规则，撤离游戏侧重任务循环，图文平台侧重用户可控的 AI 工作流。
 
-<p align="center">
-  <img src="./assets/projects/evacuation-command.png" width="85%">
-</p>
+| 作品 | 重点 | 项目入口 |
+| --- | --- | --- |
+| **弈间 FoxGo · 围棋 AI 训练助手** | 19 路对弈、5 档难度、Top-3 落点分析 | [源码与使用说明](https://github.com/jifeng-2025/-FoxGo-AI-) |
+| **Evacuation Command · 撤离射击原型** | 情报目标、周期增援、限时撤离 | [在线试玩](https://jifeng-2025.github.io/evacuation-command/) · [源码](https://github.com/jifeng-2025/evacuation-command) |
+| **AI Agent 图文创作平台** | 人工确认、局部重试、图文导出 | [源码与运行说明](https://github.com/jifeng-2025/ai-agent-content-platform) |
 
-基于 **Phaser + TypeScript + Vite** 开发的 2D 撤离射击游戏 Demo。
+### 01 · 弈间 FoxGo｜围棋 AI 分析与训练助手
 
-围绕撤离射击玩法设计并实现完整任务闭环：
+**让使用者在一张棋盘上完成“尝试落子—比较建议—悔棋再试—导出复盘”。**
 
-`战斗 → 获取情报 → 敌人增援 → 前往撤离区 → 限时撤离`
+专业围棋引擎的配置和分析信息有一定使用门槛。我围绕日常练习需求，搭建本地运行的训练网页，将对弈、候选点提示和棋谱记录放在同一界面，同时保留棋盘识别的独立入口。
 
-### 核心内容
+![弈间 FoxGo：对弈棋盘、难度设置与前三候选点分析](https://raw.githubusercontent.com/jifeng-2025/-FoxGo-AI-/main/docs/images/foxgo-training.png)
 
-* 玩家移动、鼠标瞄准与射击
-* 敌人追击、伤害与增援机制
-* 情报获取与撤离任务系统
-* HUD、倒计时及胜负结算
-* 使用 AI Coding 工具辅助需求拆解、实现、调试和试玩迭代
+**我负责的设计与实现**
 
-🔗 [GitHub 仓库](https://github.com/jifeng-2025/evacuation-command)
-🎮 [在线试玩](https://jifeng-2025.github.io/evacuation-command/)
+- **训练流程：** 支持 19×19 棋盘、黑白执子选择、悔棋、停一手、认输与 SGF 棋谱导出；悔棋同时撤回玩家上一手及 AI 应手，便于尝试其他走法。
+- **难度配置：** 设置轻松、入门、进阶、挑战、最强 **5 档**，通过 **16／32／96／256／800 次搜索访问**与候选落子策略组合形成相对差异，不将档位对应到未经校准的真实级段位。
+- **分析交互：** 展示 **Top-3 候选点、胜率及目差**；点击候选项只高亮位置，落子仍由用户确认。提示分析固定使用 **400 次访问**，与对手难度独立。
+- **规则与稳定性：** 处理提子、禁入点、全局同形及完整落子历史，完善对局状态同步、失败重试与异常恢复；通过自动化测试和 GitHub Actions 检查后续修改。
+- **反馈迭代：** 根据用户 Issue 与使用反馈调整功能和修复问题，保留源码、使用说明与界面预览，方便复现与交流。
 
----
+**能力来源：** KataGo 提供棋力、搜索与局面分析；我的工作集中在训练流程、难度配置、棋盘识别、交互展示与工程接入。当前支持练习与分析，尚不提供终局死活确认和正式计分。
 
-## 🤖 AI Agent 图文创作平台
+**如何体验：** Windows 本地运行，首次启动自动准备引擎和模型；环境要求和操作步骤见仓库说明。
 
-<p align="center">
-  <img src="./assets/projects/ai-agent.png" width="85%">
-</p>
-
-面向 AI 内容创作场景，基于 **Spring Boot 3.5、Spring AI Alibaba、Vue 3 与通义千问**复现并二次开发多 Agent 图文创作平台。
-
-### 核心工作流
-
-`选题 → 标题 → 大纲 → 正文 → 配图建议 → 图文内容`
-
-### 主要工作
-
-* 设计标题、大纲、正文、配图等 Agent 的任务拆分与协作流程
-* 调整 **Prompt 模板、上下文传递与用户可控节点**
-* 支持用户在标题选择、大纲编辑等阶段介入生成
-* 参与大模型调用、SSE 流式输出、文章管理和生成日志展示等模块联调
-
-**关键词：**
-
-`LLM` `AI Agent` `Prompt Engineering` `Multi-Agent` `Human-in-the-loop`
+[查看项目与启动说明 →](https://github.com/jifeng-2025/-FoxGo-AI-) · [反馈问题 →](https://github.com/jifeng-2025/-FoxGo-AI-/issues)
 
 ---
 
-## ♟️ AI 围棋实时分析助手
+### 02 · Evacuation Command｜撤离射击游戏原型
 
-<p align="center">
-  <img src="./assets/projects/ai-go.png" width="85%">
-</p>
+**用“取得情报后撤离”的任务目标，把战斗、移动与时间压力组织成一局游戏。**
 
-基于 **Python + OpenCV + KataGo + Win32 API** 开发 Windows 桌面端围棋 AI 辅助分析工具。
+这是一个基于 Phaser、TypeScript 与 Vite 制作的浏览器 2D 原型。玩家从地图一侧进入，取得情报后前往撤离区；击败敌人是完成任务的手段，清空初始敌人不会直接获胜。
 
-### 功能
+**玩法与规则**
 
-* 自动捕获野狐围棋棋局窗口
-* OpenCV 棋盘区域检测
-* 19×19 网格拟合与棋子识别
-* KataGo 实时局面分析
-* Top-3 候选手推荐
-* 胜率、访问次数与目差展示
-* OpenCV 可视化提示
+| 环节 | 当前配置 | 设计作用 |
+| --- | --- | --- |
+| 初始接敌 | **5 名**近战敌人 | 在取得情报前提供移动、瞄准与战斗压力 |
+| 情报获取 | 拾取后激活撤离区 | 将任务由接近目标切换为抵达出口 |
+| 追击增援 | 拾取情报后每 **5–7 秒**尝试增加 1 名敌人，同时存活最多 **8 名** | 持续施压，同时限制敌人堆积规模 |
+| 撤离判定 | 在区域内连续停留 **3 秒**，离开即清空进度 | 让最后一步需要选择站位并维持生存 |
+| 失败条件 | **180 秒**倒计时耗尽或生命归零 | 明确推进节奏与失败反馈 |
 
-实现：
+**我的工作：** 设计并实现任务状态、敌人刷新、撤离判定、战斗 HUD 与结算流程，使用 AI 工具辅助开发和调试。图形由程序绘制，优先验证任务规则与操作反馈。
 
-`屏幕感知 → 棋盘识别 → 局面解析 → AI 推理 → 可视化结果`
+**完成范围：** 可在线试玩的单场景原型，包含一种近战追击敌人；尚未扩展为完整撤离射击产品，也不包含复杂寻路与敌人间避让。
 
----
+**操作：** WASD 移动，鼠标瞄准，左键射击，R 重新开始。
 
-# 🧑‍💻 AI / 科研方向
-
-## 多模态数字人与语音驱动动作生成
-
-我的研究方向主要为：
-
-**语音驱动数字人 / 多模态生成 / Co-Speech Gesture Generation**
-
-围绕音频、文本与人体动作之间的多模态关系开展模型训练与实验研究。
-
-主要涉及：
-
-`PyTorch`
-`Multimodal Learning`
-`Contrastive Learning`
-`VQ-VAE`
-`Selective State Space Model`
-`Speech-driven Motion Generation`
-
-🔗 [相关研究仓库：MambaTalk](https://github.com/jifeng-2025/MambaTalk)
+[在线试玩 →](https://jifeng-2025.github.io/evacuation-command/) · [查看源码与规则说明 →](https://github.com/jifeng-2025/evacuation-command)
 
 ---
 
-# 🎮 游戏经历
+### 03 · AI Agent 图文创作平台
 
-### 🏆 英雄联盟
+**让用户能在关键节点决定方向，并在局部失败时只修改出问题的部分。**
 
-* 深圳大学英雄联盟校队队长
-* 前青训选手
-* 峡谷王者
-* 长期关注版本更新、英雄强度、装备体系、分路生态和职业赛事
-* 具备队伍训练、阵容沟通、战术复盘和临场决策经验
+基于 [鱼皮／编程导航的 ai-passage-creator](https://github.com/yuyuanweb/ai-passage-creator) 进行二次开发，围绕内容创作中方向偏差、重复生成与配图修改成本，调整创作流程和交互。
 
-### ♟️ 云顶之弈
+**创作流程：** 输入主题 → 选择标题 → 编辑并确认大纲 → 生成正文与配图 → 查看审稿建议 → 导出图文。
 
-**大师段位**
+**我重点改造的内容**
 
-熟悉阵容构筑、经济运营、装备分配、羁绊平衡、成长曲线及版本环境变化。
+- **关键节点人工确认：** 标题选择、大纲编辑与确认后再进入正文生成，让用户提前修正内容方向。
+- **局部调整与恢复：** 支持单张配图修改提示词后重生成、审稿建议单独重试，以及任务状态保存与恢复，减少因局部问题重跑整个流程。
+- **模型与图片配置：** 支持网页配置文本、图片服务，选择 **1–5 张**段落配图；正文流式展示，图片生成显示真实等待状态。
+- **结果交付：** 提供 **图文 ZIP、离线 HTML、单文件 Markdown 3 种导出方式**，方便保存、阅读与后续编辑。
+- **用户反馈：** 试用阶段累计有 **29 位用户使用**，根据其中 **3 位用户**关于内容方向、配图失败和修改流程的反馈持续迭代。
 
-### 🔫 其他游戏
+**贡献边界：** 在已有平台上改造工作流、模型接入、交互与任务恢复能力，保留上游署名与历史；文本、图片生成由接入的模型服务提供。
 
-* 穿越火线：枪王
-* PUBG
-* 三角洲行动
-* 无畏契约
-* NBA 2K
+**如何体验：** 按仓库说明通过 Docker Compose 本地启动。当前为开发候选版，真实生成需要自行配置模型服务；默认配图模式为演示占位。
 
-对 **MOBA、战术竞技、FPS、体育竞技和策略类游戏**均有一定体验与分析积累。
+[查看源码与运行说明 →](https://github.com/jifeng-2025/ai-agent-content-platform) · [反馈问题 →](https://github.com/jifeng-2025/ai-agent-content-platform/issues)
 
 ---
 
-# 🏆 荣誉与赛事经历
-
-| 年份      | 荣誉                              |
-| ------- | ------------------------------- |
-| 🥇 2024 | 第二十届 IEF 国际数字文化嘉年华 · 英雄联盟中国赛区冠军 |
-| 🥇 2024 | TCL 全球高校电子竞技联赛 S3 · 英雄联盟中国赛区总冠军 |
-| 🥇 2025 | TCL 全球高校电子竞技联赛 S4 · 英雄联盟中国赛区总冠军 |
-
----
-
-# 🛠 技术与工具
-
-### 🤖 AI Agent / LLM
-
-`Prompt Engineering` `Agent Workflow` `Function Calling` `RAG` `SSE` `Human-in-the-loop`
-
-### 🧠 Deep Learning
-
-`PyTorch` `Multimodal Learning` `Contrastive Learning` `VQ-VAE` `Selective SSM`
-
-### 💻 Engineering
-
-`Python` `OpenCV` `TypeScript` `Phaser` `Spring Boot` `Vue` `Git`
-
-### ⚡ AI Tools
-
-`Cursor` `Codex` `ChatGPT` `Gemini`
-
----
-
-# 🎯 当前关注方向
-
-* 🎮 AI for Games / AI 游戏研发
-* 🤖 AI Agent 与多智能体协作
-* 🧑‍💻 AI Coding / Vibe Coding
-* 🧍 数字人与多模态生成
-* 🎨 AIGC 内容生成与交互产品
-* 🕹️ 游戏玩法与系统策划
-
----
-
-## 📫 联系我
-
-📧 Email：[1170626061@qq.com](mailto:1170626061@qq.com)
-💻 GitHub：[@jifeng-2025](https://github.com/jifeng-2025)
-
----
-
-<p align="center">
-  <b>AI × Games × Digital Human</b>
-</p>
-
-
-<!--
-**jifeng-2025/jifeng-2025** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+欢迎围绕游戏系统、玩法原型和 AI 工具体验交流。项目的最新功能与运行要求，以各仓库 README 为准。
