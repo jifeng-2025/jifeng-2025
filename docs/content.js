@@ -8,5 +8,5 @@ window.GAMES = [
 {title:'Sumplete',category:'casual',genre:'数字解谜',author:'Sumplete',mode:'ChatGPT 参与创作¹',art:'puzzle',url:'https://sumplete.com/',source:'https://github.com/maxi-w/awesome-ai-generated-games',desc:'删去多余数字，让行与列各自相加成正确答案。'},
 {title:'Flappy Skies',category:'casual',genre:'轻量街机',author:'sorrycc',mode:'作者标注 One-shot',art:'bird',url:'https://sorrycc.github.io/fable-arcade/games/flappy-bird/',source:'https://github.com/sorrycc/fable-arcade',desc:'一上一下，在窄窄的空隙间寻找自己的节奏。'},
 {title:'World 1-1',category:'action',genre:'平台跳跃',author:'sorrycc',mode:'作者标注 One-shot',art:'platform',url:'https://sorrycc.github.io/fable-arcade/games/mario-1-1/',source:'https://github.com/sorrycc/fable-arcade',desc:'跑动、起跳、闯关，一段熟悉的平台冒险实验。'},
-{title:'Great Taxi Assignment',category:'drive',genre:'城市驾驶',author:'Vibe City 项目',mode:'AI 游戏精选收录¹',art:'taxi',url:'https://great-taxi-assignment.netlify.app/',source:'https://github.com/maxi-w/awesome-ai-generated-games',desc:'在城市街道间穿行，开启一段出租车驾驶时光。'}
+{title:'Great Taxi Assignment',category:'drive',genre:'城市驾驶',author:'Tomáš Bencko',mode:'AI 辅助开发',art:'taxi',url:'https://great-taxi-assignment.netlify.app/',source:'https://great-taxi-assignment.netlify.app/',desc:'在城市街道间穿行，开启一段出租车驾驶时光。'}
 ];

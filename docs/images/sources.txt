@@ -1,0 +1,16 @@
+图片来源 / Image credits — 2026-11-12
+
+Evacuation Command: 实机截图，https://jifeng-2025.github.io/evacuation-command/
+FoxGo: 作者仓库截图，https://github.com/jifeng-2025/-FoxGo-AI-/blob/main/docs/images/foxgo-training.png
+AI Agent 图文平台: 作者仓库中的离线导出阅读样例，https://github.com/jifeng-2025/ai-agent-content-platform/blob/main/artifacts/offline-export/browser-2026-09-11T09-44-47-467Z/12-offline-desktop.png
+QQ飞车: 实机截图，https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d/index.html
+穿越火线运输船、鹈鹕骑车: 游戏截图来自 HEIGE 游戏目录（https://www.heigeai.com/game/）；游戏作者 riba2534。
+原图：https://www.heigeai.com/game/assets/cf-ship-scene.png
+原图：https://www.heigeai.com/game/assets/pelican-scene.png
+海克斯大乱斗: 游戏页面使用的阿狸角色原画，非实机截图；角色素材 © Riot Games。https://lol.hanyue.io/lol-assets/r20260923-webp-fountain5000-1/assets/Ahri-loading.jpg
+Fly: 作者提供的社交分享封面，https://fly.pieter.com/assets/fly_social_image.png?1234
+Sumplete: 实际游戏界面截图，https://sumplete.com/unlimited
+Flappy Skies、World 1-1: 游戏截图，https://github.com/sorrycc/fable-arcade
+Great Taxi Assignment: 游戏截图，作者 Tomáš Bencko，https://great-taxi-assignment.netlify.app/
+
+图片用于介绍、链接对应项目。作品及素材归各自权利人所有。
