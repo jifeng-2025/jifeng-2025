@@ -10,3 +10,8 @@
 @media(max-width:1000px){.games-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-art{height:400px}.art-bottom h2{font-size:27px}.work-cover{height:195px}.cover-hex:after{font-size:25px}}
 @media(max-width:720px){.hero-art{height:390px}.hero-art>img{top:50px;left:14px;width:calc(100% - 28px)}.art-bottom{bottom:35px}.art-bottom h2{font-size:28px}.work-cover{height:250px}.games-grid{gap:25px 14px}.game-card h3{font-size:16px}.game-cover{aspect-ratio:4/3}.game-cover .game-num{top:8px;left:8px;font-size:8px;padding:3px 5px}.cover-hex:after{font-size:18px;left:12px;letter-spacing:1px}.game-cover .go-arrow{width:26px;height:26px;right:8px;bottom:8px}}
 .hero-art>img{height:calc(100% - 210px);aspect-ratio:auto;object-fit:contain}
+
+/* Four projects, with the latest adaptation first. */
+@media(min-width:1001px){.works-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:721px) and (max-width:1000px){.works-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.work-card:nth-child(2) .work-cover{background:#10151f;padding:42px 12px 12px}.work-card:nth-child(2) .work-cover>img{object-fit:contain}.work-card:nth-child(3) .work-cover>img{object-position:center 30%}.work-card:nth-child(4) .work-cover>img{object-position:center top}

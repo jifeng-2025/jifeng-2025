@@ -1,5 +1,6 @@
 图片来源 / Image credits — 2026-11-12
 
+盐线行动 · jifeng 改编：改编版实机截图，https://jifeng-2025.github.io/Feng-3afps-demo/ 。基于 Saltline，来源与改编范围见 https://github.com/jifeng-2025/Feng-3afps-demo#readme
 Evacuation Command: 实机截图，https://jifeng-2025.github.io/evacuation-command/
 FoxGo: 作者仓库截图，https://github.com/jifeng-2025/-FoxGo-AI-/blob/main/docs/images/foxgo-training.png
 AI Agent 图文平台: 作者仓库中的离线导出阅读样例，https://github.com/jifeng-2025/ai-agent-content-platform/blob/main/artifacts/offline-export/browser-2026-09-11T09-44-47-467Z/12-offline-desktop.png
