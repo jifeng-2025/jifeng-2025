@@ -15,3 +15,14 @@ Flappy Skies、World 1-1: 游戏截图，https://github.com/sorrycc/fable-arcade
 Great Taxi Assignment: 游戏截图，作者 Tomáš Bencko，https://great-taxi-assignment.netlify.app/
 
 图片用于介绍、链接对应项目。作品及素材归各自权利人所有。
+
+Fable 5.2 collection (2026-11-14)
+Collection / model attribution: https://github.com/fengyiqicoder/awesome-fable-5.2
+Preview GIFs from the collection, originally showcasing the credited creators’ games.
+fable-173.gif | @ebbyamir | https://starrynightrider.com | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/173.gif
+fable-124.gif | @BlendiByl | https://patch.gg/blendi/oil-paint | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/124.gif
+fable-008.gif | @kevin_t_ngo | https://what-the-water-keeps.vercel.app/ | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/008.gif
+fable-126.gif | @kevin_t_ngo | https://evensong-phi.vercel.app/ | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/126.gif
+fable-128.gif | @loktar00 | https://loktar00.github.io/lanternfall/ | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/128.gif
+fable-131.gif | @op7418 | https://op7418.github.io/guizang-game-skill/ | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/131.gif
+fable-197.gif | @photonstorm | https://tennis.sixfingerpunch.com/ | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/197.gif
