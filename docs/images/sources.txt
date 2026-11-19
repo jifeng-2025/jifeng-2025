@@ -32,3 +32,15 @@ fable-329.gif | @ViktorKav | https://x.com/ViktorKav/status/2122647483281015155 
 fable-323.gif | @BlendiByl | https://x.com/BlendiByl/status/2122673770607591855 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/323.gif
 fable-313.gif | @AravSrinivas | https://x.com/AravSrinivas/status/2122338465648103676 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/313.gif
 fable-308.gif | @__morse | https://x.com/__morse/status/2122013410309153042 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/308.gif
+
+Fable 5.2 action, puzzle and other games
+fable-203.gif | @positronx_ | https://x.com/positronx_/status/2120374208043876422 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/203.gif
+fable-daedalus.jpg | @S77FFY | https://github.com/S77FFY/daedalus | In-game capture from https://s77ffy.github.io/daedalus/
+fable-274.gif | @BlendiByl | https://x.com/BlendiByl/status/2121594536153718972 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/274.gif
+fable-018.gif | @mylifcc | https://x.com/mylifcc/status/2120054646282870910 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/018.gif
+fable-288.gif | @aniketjart | https://x.com/aniketjart/status/2121793239175119279 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/288.gif
+fable-279.gif | @kevin_t_ngo | https://x.com/kevin_t_ngo/status/2121701020598415465 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/279.gif
+fable-199.gif | @Andrew_Blumson | https://x.com/Andrew_Blumson/status/2120599812512833557 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/199.gif
+fable-007.gif | @emollick | https://x.com/emollick/status/2119876449494540554 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/007.gif
+fable-130.gif | @emollick | https://x.com/emollick/status/2120248525254742318 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/130.gif
+fable-125.gif | @mattshumer_ | https://x.com/mattshumer_/status/2120282133503820150 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/125.gif
