@@ -14,4 +14,6 @@ document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click'
 search.addEventListener('input',render);
 document.querySelector('#random').addEventListener('click',()=>{const candidates=games.filter(g=>filter==='all'||g.category===filter||(filter==='fable'&&g.model==='Fable 5.2'));window.open(candidates[Math.floor(Math.random()*candidates.length)].url,'_blank','noopener,noreferrer')});
 document.querySelectorAll('[data-total]').forEach(el=>el.textContent=String(games.length).padStart(2,'0'));
+const fableTotal = games.filter(game => game.model === 'Fable 5.2').length;
+document.querySelector('[data-fable-total]').textContent = String(fableTotal).padStart(2, '0');
 render();

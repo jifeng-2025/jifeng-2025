@@ -26,3 +26,9 @@ fable-126.gif | @kevin_t_ngo | https://evensong-phi.vercel.app/ | https://github
 fable-128.gif | @loktar00 | https://loktar00.github.io/lanternfall/ | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/128.gif
 fable-131.gif | @op7418 | https://op7418.github.io/guizang-game-skill/ | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/131.gif
 fable-197.gif | @photonstorm | https://tennis.sixfingerpunch.com/ | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/197.gif
+
+Fable 5.2 collection additions (2026-11-19)
+fable-329.gif | @ViktorKav | https://x.com/ViktorKav/status/2122647483281015155 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/329.gif
+fable-323.gif | @BlendiByl | https://x.com/BlendiByl/status/2122673770607591855 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/323.gif
+fable-313.gif | @AravSrinivas | https://x.com/AravSrinivas/status/2122338465648103676 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/313.gif
+fable-308.gif | @__morse | https://x.com/__morse/status/2122013410309153042 | https://github.com/fengyiqicoder/awesome-fable-5.2/blob/main/assets/gifs/308.gif
