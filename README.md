@@ -18,20 +18,18 @@
 
 | 作品 | 重点 | 项目入口 |
 | --- | --- | --- |
-| **生化漠城 · jifeng 改编** | 12席感染模式、多层地图、Bot行为、战斗反馈 | [在线试玩](https://jifeng-2025.github.io/shenghua-mocheng/) · [改编说明与源码](https://github.com/jifeng-2025/shenghua-mocheng) |
+| **生化漠城 v0.9.1** | 12 席感染模式、多层攻防、Bot 行为和近战反馈 | [在线试玩](https://jifeng-2025.github.io/shenghua-mocheng/) · [项目说明](https://github.com/jifeng-2025/shenghua-mocheng#readme) |
 | **弈间 FoxGo · 围棋 AI 训练助手** | 19 路对弈、5 档难度、Top-3 落点分析 | [源码与使用说明](https://github.com/jifeng-2025/-FoxGo-AI-) |
 | **Evacuation Command · 撤离射击原型** | 情报目标、周期增援、限时撤离 | [在线试玩](https://jifeng-2025.github.io/evacuation-command/) · [源码](https://github.com/jifeng-2025/evacuation-command) |
 | **AI Agent 图文创作平台** | 人工确认、局部重试、图文导出 | [源码与运行说明](https://github.com/jifeng-2025/ai-agent-content-platform) |
 
-### 01 · 生化漠城｜Feng Remix
+### 01 · 生化漠城 v0.9.1
 
-**黄继峰 / Feng改编的第一人称感染模式。** 我围绕高地防守与阵营转换设计12席、随机3名初始感染者、3分钟对局；完成三层遗迹地图、双路攻防导航、双阵营Bot、隼07枪械结构、动作和战斗反馈的迭代。
+**围绕高地防守与阵营转换设计的浏览器第一人称感染游戏。** 在三层沙漠遗迹展开 12 席对局，随机 3 名初始感染者，支持 1 名本地玩家和 11 名 AI。
 
-使用Codex辅助实现与验证，累计51项测试通过，并实测追击抓人、补给、计分、第一视角动作及完整AI对局。当前1名本地玩家+11名AI。
+v0.9.1 修复感染者脚部没入台阶，改善短点击、入距提示和抓击接触反馈。57 项自动测试通过，并在 Chrome 完整跑完对局与重开。
 
-[在线试玩](https://jifeng-2025.github.io/shenghua-mocheng/) · [源码和具体贡献](https://github.com/jifeng-2025/shenghua-mocheng)
-
-*基于Saltline中文流传HTML改编，人物模块来自MIT授权的Graveyard Shift；来源和许可边界见项目说明。*
+[在线试玩](https://jifeng-2025.github.io/shenghua-mocheng/) · [项目说明与回归记录](https://github.com/jifeng-2025/shenghua-mocheng#readme)
 
 ---
 
